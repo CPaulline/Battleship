@@ -1,0 +1,104 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+
+head {
+	align-items: center;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h2 {
+	font-size: normal;
+	font-weight: normal;
+}
+
+td, th{
+	text-align: center;
+}
+
+table, td {
+	border: 1px solid black;
+	height: 50px;
+}
+
+button {
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+div2 {
+	align-items: center;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+div3 {
+	padding-bottom: 20px;
+	display:block;
+}
+
+#message {
+	text-align: center;
+	font-size: large;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(30%);
+}
+
+.cruiser {
+	background-image: url('../images/cruiser.jpg');
+	background-size: auto;
+}
+.submarine {
+	background-image: url('../images/submarine.jpg');
+	background-size: auto;
+}
+
+.destroyer {
+	background-image: url('../images/destroyer.jpg');
+	background-size: auto;
+}
+
+.battleship {
+	background-image: url('../images/battleship.jpg');
+	background-size: auto;
+}
+
+.vessel {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin: 0px 12px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.missed {
+	background-color: #ff0000;
+}
+
+.table-width{
+	width: 70%;
+}
+
